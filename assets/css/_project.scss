@@ -1,0 +1,38 @@
+.project-main-image {
+  margin-top: -50vh;
+ margin-bottom: 100px;
+  img{
+    width: 100%;
+    box-shadow: $main-shadow;
+    cursor: pointer;
+  }
+  iframe{
+    width: 100%;
+    height: 40rem;
+  }
+}
+
+.project-main-image-mobile{
+  display: flex;
+  justify-content: center;
+  margin-top: -50vh;
+  margin-bottom: 100px;
+  img{
+    width: 50%;
+    box-shadow: $main-shadow;
+    cursor: pointer;
+  }
+}
+
+.project-gallery{
+
+  margin-bottom: 100px;
+  img{
+    width: 100%;
+    height: 200px !important;
+    object-fit: cover;
+    border: 5px solid #F9EFE7;
+    box-shadow: 3px 1px 6px 1px #4442424a;
+    margin-bottom: 20px;
+  }
+}
