@@ -36,10 +36,10 @@ name: "menhag",
   return {
     selectedImage:0,
     images:[
-      '/images/portfolio/dribble/1.png',
-      '/images/portfolio/dribble/2.png',
-      '/images/portfolio/dribble/3.png',
-      '/images/portfolio/dribble/4.png',
+      '/images/portfolio/dribble/1.jpg',
+      '/images/portfolio/dribble/2.jpg',
+      '/images/portfolio/dribble/3.jpg',
+      '/images/portfolio/dribble/4.jpg',
     ]
   }
   },

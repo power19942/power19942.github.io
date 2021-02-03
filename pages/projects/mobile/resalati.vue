@@ -8,8 +8,8 @@
           <p class="secondary-text">PROJECT SHOWCASE</p>
           <h1 class="main-headline mb-5">Resalati App</h1>
           <p class="description mb-5">
-            Resalati is a social app that will send you message every day that contain some information from channels that you subscribed to it
-            Resalati built with flutter and Bloc pattern for state management
+            Resalati is a social app that will send you a message every day that contain some information from channels that you subscribed to it
+            Resalati built with flutter and Provider for state management
             <br> note: you can click the image to play the gallery
           </p>
         </b-col>
@@ -76,7 +76,7 @@ name: "menhag",
       }
 
       this.$refs.mainImage.src = this.images[++this.selectedImage]
-      window.scrollTo({top:document.querySelector('img').offsetTop + 900,behavior:'smooth'});
+      //window.scrollTo({top:document.querySelector('img').offsetTop + 900,behavior:'smooth'});
 
     }
   }

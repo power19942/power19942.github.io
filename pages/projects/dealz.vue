@@ -55,7 +55,7 @@ export default {
       }
 
       this.$refs.mainImage.src = this.images[++this.selectedImage]
-      window.scrollTo({top: document.querySelector('img').offsetTop + 900, behavior: 'smooth'});
+      //window.scrollTo({top: document.querySelector('img').offsetTop + 900, behavior: 'smooth'});
 
     }
   }

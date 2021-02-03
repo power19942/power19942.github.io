@@ -8,8 +8,8 @@
           <p class="secondary-text">PROJECT SHOWCASE</p>
           <h1 class="main-headline mb-5">Menhag Website</h1>
           <p class="description mb-5">
-            Menhag is a platform for learning arabic language
-            built with laravel and vuejs
+            Menhag is a platform for learning the Arabic language built with laravel and vuejs
+            note: you can click the image to play the gallery
              <br> note: you can click the image to play the gallery
           </p>
         </b-col>
@@ -37,19 +37,19 @@ name: "menhag",
   return {
     selectedImage:0,
     images:[
-      '/images/portfolio/menhag/1.png',
-      '/images/portfolio/menhag/2.png',
-      '/images/portfolio/menhag/3.png',
-      '/images/portfolio/menhag/4.png',
-      '/images/portfolio/menhag/5.png',
-      '/images/portfolio/menhag/6.png',
-      '/images/portfolio/menhag/7.png',
-      '/images/portfolio/menhag/8.png',
-      '/images/portfolio/menhag/9.png',
-      '/images/portfolio/menhag/10.png',
-      '/images/portfolio/menhag/11.png',
-      '/images/portfolio/menhag/12.png',
-      '/images/portfolio/menhag/13.png',
+      '/images/portfolio/menhag/1.jpg',
+      '/images/portfolio/menhag/2.jpg',
+      '/images/portfolio/menhag/3.jpg',
+      '/images/portfolio/menhag/4.jpg',
+      '/images/portfolio/menhag/5.jpg',
+      '/images/portfolio/menhag/6.jpg',
+      '/images/portfolio/menhag/7.jpg',
+      '/images/portfolio/menhag/8.jpg',
+      '/images/portfolio/menhag/9.jpg',
+      '/images/portfolio/menhag/10.jpg',
+      '/images/portfolio/menhag/11.jpg',
+      '/images/portfolio/menhag/12.jpg',
+      '/images/portfolio/menhag/13.jpg',
     ]
   }
   },
@@ -60,7 +60,7 @@ name: "menhag",
       }
 
       this.$refs.mainImage.src = this.images[++this.selectedImage]
-      window.scrollTo({top:document.querySelector('img').offsetTop + 900,behavior:'smooth'});
+      // window.scrollTo({top:document.querySelector('img').offsetTop  +900,behavior:'smooth'});
 
     }
   }

@@ -8,8 +8,7 @@
             <p class="secondary-text">PROJECT SHOWCASE</p>
             <h1 class="main-headline mb-5">Rasheed Windows Form</h1>
             <p class="description mb-5">
-              this is my first complete desktop application for rasheed charity
-              I built it in 2015 using visual basic .net
+              this is my first complete desktop application for Rasheed charity I built it in 2015 using visual basic .net
               <br> note: you can click the image to play the gallery
             </p>
           </b-col>
@@ -62,7 +61,7 @@ export default {
       }
 
       this.$refs.mainImage.src = this.images[++this.selectedImage]
-      window.scrollTo({top: document.querySelector('img').offsetTop + 900, behavior: 'smooth'});
+      //window.scrollTo({top: document.querySelector('img').offsetTop + 900, behavior: 'smooth'});
 
     }
   }

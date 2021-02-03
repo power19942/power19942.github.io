@@ -9,7 +9,7 @@
           <p class="call-me">
             if you need a modern and powerful apps for your business,
             startup or personally. I am avilable for work you can email me
-            at <a class="throw-line">omar.jakmira@gmail.com</a>
+            at <a href="mailto:omar.jakmira@gmail.com" class="throw-line">omar.jakmira@gmail.com</a>
           </p>
 
         </b-col>

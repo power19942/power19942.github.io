@@ -8,9 +8,9 @@
           <p class="secondary-text">updated at 1/2021</p>
           <h1 class="main-headline mb-5">My Updated Resume</h1>
           <p class="description mb-5">
-            here is all of my skills and field of experience
+            here are all of my skills and field of experiences
             I have experiences in multiple languages and frameworks
-            and able to learn any new technology to get the work done
+            and able to learn any new technology to get the work done with the best quality
           </p>
         </b-col>
         <b-col md="2"></b-col>

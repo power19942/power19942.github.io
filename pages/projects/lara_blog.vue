@@ -6,9 +6,9 @@
           <b-col md="2"></b-col>
           <b-col md="8" class="text-center">
             <p class="secondary-text">PROJECT SHOWCASE</p>
-            <h1 class="main-headline mb-5">Katebon Website</h1>
+            <h1 class="main-headline mb-5">LaraBlog Website</h1>
             <p class="description mb-5">
-              Katebon is a Blogging Web application built with laravel
+              LaraBlog is a simple website for blogging built with minimal UI
               <br> note: you can click the image to play the gallery
             </p>
           </b-col>
@@ -36,17 +36,21 @@ export default {
     return {
       selectedImage: 0,
       images: [
-        '/images/portfolio/katebon/1.jpg',
-        '/images/portfolio/katebon/2.jpg',
-        '/images/portfolio/katebon/3.jpg',
-        '/images/portfolio/katebon/4.jpg'
+        '/images/portfolio/laraBlog/1.png',
+        '/images/portfolio/laraBlog/2.png',
+        '/images/portfolio/laraBlog/3.png',
+        '/images/portfolio/laraBlog/4.png',
+        '/images/portfolio/laraBlog/5.png',
+        '/images/portfolio/laraBlog/6.png',
+        '/images/portfolio/laraBlog/7.png',
+        '/images/portfolio/laraBlog/8.png',
       ]
     }
   },
   methods: {
     changeImage() {
       if (this.selectedImage >= this.images.length - 1) {
-        this.selectedImage = 0
+        this.selectedImage = -1
       }
 
       this.$refs.mainImage.src = this.images[++this.selectedImage]

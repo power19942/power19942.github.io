@@ -8,8 +8,7 @@
           <p class="secondary-text">PROJECT SHOWCASE</p>
           <h1 class="main-headline mb-5">Recipes App</h1>
           <p class="description mb-5">
-            a native mobile application that I built while learning android jetpack
-            I used kotlin, HILT, Coroutines and jetpack libraries like ROOM, ViewModel and others
+            a native mobile application that I built while learning android jetpack I used kotlin, HILT, Coroutines, and jetpack libraries like ROOM, ViewModel, and others
             <br> note: you can click the image to play the gallery
           </p>
         </b-col>
@@ -37,11 +36,11 @@ name: "menhag",
   return {
     selectedImage:0,
     images:[
-      '/images/portfolio/recipes/1.png',
-      '/images/portfolio/recipes/2.png',
-      '/images/portfolio/recipes/3.png',
-      '/images/portfolio/recipes/4.png',
-      '/images/portfolio/recipes/5.png'
+      '/images/portfolio/recipes/1.jpg',
+      '/images/portfolio/recipes/2.jpg',
+      '/images/portfolio/recipes/3.jpg',
+      '/images/portfolio/recipes/4.jpg',
+      '/images/portfolio/recipes/5.jpg'
     ]
   }
   },
@@ -52,7 +51,7 @@ name: "menhag",
       }
 
       this.$refs.mainImage.src = this.images[++this.selectedImage]
-      window.scrollTo({top:document.querySelector('img').offsetTop + 900,behavior:'smooth'});
+      //window.scrollTo({top:document.querySelector('img').offsetTop + 900,behavior:'smooth'});
 
     }
   }

@@ -8,8 +8,7 @@
             <p class="secondary-text">PROJECT SHOWCASE</p>
             <h1 class="main-headline mb-5">Kodwa Website</h1>
             <p class="description mb-5">
-              Kodwa is a small social network between students and their role models
-              with beautiful an easy to use UI
+              Kodwa is a small social network between students and their role models with beautiful and easy to use UI
               <br> note: you can click the image to play the gallery
             </p>
           </b-col>
@@ -58,7 +57,7 @@ export default {
       }
 
       this.$refs.mainImage.src = this.images[++this.selectedImage]
-      window.scrollTo({top: document.querySelector('img').offsetTop + 900, behavior: 'smooth'});
+      //window.scrollTo({top: document.querySelector('img').offsetTop + 900, behavior: 'smooth'});
 
     }
   }

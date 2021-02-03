@@ -8,7 +8,7 @@
           <p class="secondary-text">PROJECT SHOWCASE</p>
           <h1 class="main-headline mb-5">Facebook Clone</h1>
           <p class="description mb-5">
-            This is a small facebook clone built while I'm learning vuejs and laravel TDD
+            This is a small Facebook clone built while I'm learning Vuejs and laravel TDD
              <br> note: you can click the image to play the gallery
           </p>
         </b-col>
@@ -36,11 +36,11 @@ name: "menhag",
   return {
     selectedImage:0,
     images:[
-      '/images/portfolio/facebook/1.png',
-      '/images/portfolio/facebook/2.png',
-      '/images/portfolio/facebook/3.png',
-      '/images/portfolio/facebook/4.png',
-      '/images/portfolio/facebook/5.png'
+      '/images/portfolio/facebook/1.jpg',
+      '/images/portfolio/facebook/2.jpg',
+      '/images/portfolio/facebook/3.jpg',
+      '/images/portfolio/facebook/4.jpg',
+      '/images/portfolio/facebook/5.jpg'
     ]
   }
   },
